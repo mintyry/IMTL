@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS imtl_db;
+
+CREATE DATABASE imtl_db;
+
+USE imtl_db;

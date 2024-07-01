@@ -1,0 +1,1 @@
+- look into json data type so this way i dont have to make multiple lines for the same characters

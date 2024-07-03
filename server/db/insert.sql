@@ -49,15 +49,16 @@ INSERT INTO zeo (
     )
 VALUES
     (01, 'Tommy Oliver', 'red', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
-    (02, 'Adam Park', 'green', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
-    (03, 'Rocky DeSantos', 'blue', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
-    (04, 'Katherine Hillard', 'pink', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
-    (05, 'Tanya Sloan', 'yellow', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
+    (02, 'Adam Park', 'green', 1996, 'zeo ranger four', 1, 'power rangers zeo', NULL),
+    (03, 'Rocky DeSantos', 'blue', 1996, 'zeo ranger three', 1, 'power rangers zeo', NULL),
+    (04, 'Katherine Hillard', 'pink', 1996, 'zeo ranger one', 1, 'power rangers zeo', NULL),
+    (05, 'Tanya Sloan', 'yellow', 1996, 'zeo ranger two', 1, 'power rangers zeo', NULL),
     (06, 'Jason Scott Lee', 'gold', 1996, 'gold ranger power', 1, 'power rangers zeo', NULL);
 
 SELECT * FROM zeo;
 
 INSERT INTO turbo (
+    id,
     name,
     color,
     year,
@@ -76,6 +77,7 @@ VALUES
 SELECT * FROM turbo;
 
 INSERT INTO in_space (
+    id,
     name,
     color,
     year,
@@ -84,3 +86,11 @@ INSERT INTO in_space (
     series_name,
     image
 )
+VALUES
+    (01, 'Andros', 'red', 1998, 'red space ranger', 1, 'power rangers in space', NULL),
+    (02, 'TJ Johnson', 'blue', 1998, 'blue space ranger', 1, 'power rangers in space', NULL),
+    (03, 'Carlos Vallerte', 'black', 1998, 'black space ranger', 1, 'power rangers in space', NULL),
+    (04, 'Ashley Hammond', 'yellow', 1998, 'yellow space ranger', 1, 'power rangers in space', NULL),
+    (05, 'Cassie Chan', 'pink', 1998, 'pink space ranger', 1, 'power rangers in space', NULL);
+
+SELECT * FROM in_space;

@@ -17,3 +17,22 @@ VALUES
     (06, 'Tommy Oliver', 'green', 1993, 'dragonzord', '[1,2]', 'mighty morphin'' power rangers', NULL);
 
 SELECT * FROM mmpr;
+
+INSERT INTO alien (
+    id,
+    name,
+    color,
+    year,
+    power,
+    season,
+    series_name,
+    image
+    )
+VALUES
+    (01, 'Delphine', 'white', 1995, 'white aquitar ranger power', 1, 'mighty morphin'' alien rangers', NULL),
+    (02, 'Aurico', 'red', 1995, 'red aquitar ranger power', 1, 'mighty morphin'' alien rangers', NULL),
+    (03, 'Cestro', 'blue', 1995, 'blue aquitar ranger power', 1, 'mighty morphin'' alien rangers', NULL),
+    (04, 'Corcus', 'black', 1995, 'black aquitar ranger power', 1, 'mighty morphin'' alien rangers', NULL),
+    (05, 'Tideus', 'yellow', 1995, 'yellow aquitar ranger power', 1, 'mighty morphin'' alien rangers', NULL);
+
+SELECT * FROM alien;

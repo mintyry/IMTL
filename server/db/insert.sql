@@ -36,3 +36,23 @@ VALUES
     (05, 'Tideus', 'yellow', 1995, 'yellow aquitar ranger power', 1, 'mighty morphin'' alien rangers', NULL);
 
 SELECT * FROM alien;
+
+INSERT INTO zeo (
+    id,
+    name,
+    color,
+    year,
+    power,
+    season,
+    series_name,
+    image
+    )
+VALUES
+    (01, 'Tommy Oliver', 'red', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
+    (02, 'Adam Park', 'green', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
+    (03, 'Rocky DeSantos', 'blue', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
+    (04, 'Katherine Hillard', 'pink', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
+    (05, 'Tanya Sloan', 'yellow', 1996, 'zeo ranger five', 1, 'power rangers zeo', NULL),
+    (06, 'Jason Scott Lee', 'gold', 1996, 'gold ranger power', 1, 'power rangers zeo', NULL);
+
+SELECT * FROM zeo;

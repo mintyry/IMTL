@@ -22,7 +22,7 @@ CREATE TABLE alien(
     color VARCHAR(15) NOT NULL,
     year YEAR NOT NULL,
     power VARCHAR(30),
-    season JSON NOT NULL,
+    season INT NOT NULL,,
     series_name VARCHAR(30),
     image VARCHAR(50)
 );

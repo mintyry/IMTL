@@ -49,7 +49,7 @@ CREATE TABLE turbo(
     image VARCHAR(50)
 );
 
-CREATE TABLE space(
+CREATE TABLE in_space(
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(30) NOT NULL,
     color VARCHAR(15) NOT NULL,

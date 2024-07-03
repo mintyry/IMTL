@@ -56,3 +56,31 @@ VALUES
     (06, 'Jason Scott Lee', 'gold', 1996, 'gold ranger power', 1, 'power rangers zeo', NULL);
 
 SELECT * FROM zeo;
+
+INSERT INTO turbo (
+    name,
+    color,
+    year,
+    power,
+    season,
+    series_name,
+    image
+)
+VALUES
+    (01, 'Tommy Oliver', 'red', 1997, 'red lightning turbo power', 1, 'power rangers turbo', NULL),
+    (02, 'Adam Park', 'green', 1997, 'desert thunder turbo power', 1, 'power rangers turbo', NULL),
+    (03, 'Katherine Hillard', 'pink', 1997, 'wind chaser turbo power', 1, 'power rangers turbo', NULL),
+    (04, 'Tanya Sloan', 'yellow', 1997, 'dune star turbo power', 1, 'power rangers turbo', NULL),
+    (05, 'Justin Stewart', 'blue', 1997, 'mountain blaster turbo power', 1, 'power rangers turbo', NULL);
+
+SELECT * FROM turbo;
+
+INSERT INTO in_space (
+    name,
+    color,
+    year,
+    power,
+    season,
+    series_name,
+    image
+)

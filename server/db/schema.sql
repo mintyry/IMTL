@@ -8,7 +8,7 @@ USE imtl_db;
 CREATE TABLE mmpr(
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(30) NOT NULL,
-    color VARCHAR(15) NOT NULL,
+    color JSON,
     year YEAR NOT NULL,
     power VARCHAR(30),
     season JSON NOT NULL,

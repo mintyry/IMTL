@@ -13,7 +13,7 @@ CREATE TABLE mmpr(
     power VARCHAR(30),
     season JSON NOT NULL,
     series_name VARCHAR(30),
-    image VARCHAR(50)
+    image JSON
 );
 
 CREATE TABLE alien(
@@ -24,7 +24,7 @@ CREATE TABLE alien(
     power VARCHAR(30),
     season INT NOT NULL,
     series_name VARCHAR(30),
-    image VARCHAR(50)
+    image JSON
 );
 
 CREATE TABLE zeo(
@@ -35,7 +35,7 @@ CREATE TABLE zeo(
     power VARCHAR(30),
     season INT NOT NULL,
     series_name VARCHAR(30),
-    image VARCHAR(50)
+    image JSON
 );
 
 CREATE TABLE turbo(
@@ -46,7 +46,7 @@ CREATE TABLE turbo(
     power VARCHAR(30),
     season INT NOT NULL,
     series_name VARCHAR(30),
-    image VARCHAR(50)
+    image JSON
 );
 
 CREATE TABLE in_space(
@@ -57,5 +57,5 @@ CREATE TABLE in_space(
     power VARCHAR(30),
     season INT NOT NULL,
     series_name VARCHAR(30),
-    image VARCHAR(50)
+    image JSON
 );

@@ -2,4 +2,3 @@ think more about data structure since some have more colors, seasons, etc
 
 think about breaking up tables and making relational databases
 
-test

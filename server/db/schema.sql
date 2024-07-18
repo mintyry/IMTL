@@ -13,3 +13,15 @@ CREATE TABLE rangers (
     character_name VARCHAR(30) NOT NULL,
     real_name VARCHAR(30) NOT NULL
 );
+
+CREATE TABLE series (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    series_name VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE seasons (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    season_no INT NOT NULL,
+    series_id INT NOT NULL,
+    FOREIGN KEY (series_id) REFERENCES series(id)
+);

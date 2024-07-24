@@ -39,8 +39,8 @@ VALUES
 SELECT * FROM series;
 
 -- season table
-INSERT INTO seasons (season_no, series_id) (
-    season_no
+INSERT INTO seasons (
+    season_no,
     series_id
 )
 VALUES

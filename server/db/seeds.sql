@@ -41,16 +41,17 @@ SELECT * FROM series;
 -- season table
 INSERT INTO seasons (
     season_no,
-    series_id
+    series_id,
+    year
 )
 VALUES
-    (1, 1),
-    (2, 1),
-    (3, 1),
-    (4, 2),
-    (5, 3),
-    (6, 4),
-    (7, 5);
+    (1, 1, 1993),
+    (2, 1, 1994),
+    (3, 1, 1995),
+    (4, 2, 1996),
+    (5, 3, 1996),
+    (6, 4, 1997),
+    (7, 5, 1998);
 
 SELECT * FROM seasons;
 
@@ -69,3 +70,27 @@ VALUES
     ('silver');
 
 SELECT * FROM colors;
+
+INSERT INTO powers (
+    powers
+)
+VALUES
+    ('tyrannosaurus'),
+    ('mastodon'),
+    ('triceratops'),
+    ('pterodactyl'),
+    ('saber-toothed tiger'),
+    ('dragonzord'),
+    ('tigerzord'),
+    ('red dragon'),
+    ('lion'),
+    ('unicorn'),
+    ('firebird'),
+    ('griffin'),
+    ('falcon'),
+    ('ape'),
+    ('frog'),
+    ('wolf'),
+    ('crane'),
+    ('bear')
+

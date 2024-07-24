@@ -25,3 +25,8 @@ CREATE TABLE seasons (
     series_id INT NOT NULL,
     FOREIGN KEY (series_id) REFERENCES series(id)
 );
+
+CREATE TABLE colors (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    colors VARCHAR(30) NOT NULL
+);

@@ -28,7 +28,6 @@ SELECT * FROM rangers;
 -- series table
 INSERT INTO series (
     series_name
-
 )
 VALUES
     ('Mighty Morphin'' Power Rangers'),
@@ -54,3 +53,19 @@ VALUES
     (7, 5);
 
 SELECT * FROM seasons;
+
+INSERT INTO colors (
+    colors
+)
+VALUES 
+    ('red'),
+    ('black'),
+    ('blue'),
+    ('pink'),
+    ('yellow'),
+    ('green'),
+    ('white'),
+    ('gold'),
+    ('silver');
+
+SELECT * FROM colors;
